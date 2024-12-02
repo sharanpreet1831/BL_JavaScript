@@ -19,6 +19,15 @@ console.log(obj)
 console.log(obj.has(1));
 console.log(obj.has(10));
 
+// loop on set 
+for (let x of obj ){
+    console.log(x);
+}
+
+obj.forEach((element )=>{
+    console.log(element)
+})
+
 
 // for clear set ;
 obj.clear();
