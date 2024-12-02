@@ -22,3 +22,5 @@ var odd = (num1, num2 )=>{
 }
 let res = odd(1,2);
 console.log(res);
+
+
